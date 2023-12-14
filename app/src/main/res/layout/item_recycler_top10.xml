@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp">
+    <LinearLayout
+        android:padding="15dp"
+        android:background="#FF5722"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="15dp">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:src="@mipmap/book2" />
+    <LinearLayout
+        android:padding="10dp"
+        android:background="#E6DD8F"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="15dp">
+        <TextView
+            android:id="@+id/txtMaSach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"/>
+        <TextView
+            android:id="@+id/txtTenSach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"/>
+        <TextView
+            android:id="@+id/txtSoLuongMuon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"/>
+    </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_margin="20dp"
+    android:background="#F3D2A1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thành viên"
+        android:textSize="20sp"
+        android:textColor="#FF0000"
+        android:textStyle="bold"/>
+    <Spinner
+        android:id="@+id/spnThanhVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Truyện Tranh"
+        android:textSize="20sp"
+        android:textColor="#FF0000"/>
+    <Spinner
+        android:id="@+id/spnSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

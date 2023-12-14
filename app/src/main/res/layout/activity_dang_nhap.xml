@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangNhapActivity"
+    android:background="@drawable/back"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/fpt" />
+
+        <EditText
+            android:id="@+id/edtUser"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ems="15"
+            android:hint="Tên Đăng Nhập"
+            android:text="thuthu01"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edtPass"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ems="15"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:text="123456"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnDangNhap"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#B85252"
+            android:text="Đăng Nhập" />
+
+    </LinearLayout>
+</RelativeLayout>

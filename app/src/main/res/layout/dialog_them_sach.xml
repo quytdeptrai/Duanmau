@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    android:padding="20dp"
+    android:background="#9AE5EF">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THÊM TRUYỆN MỚI"
+        android:textSize="30sp"
+        android:textColor="#FF0000"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edtTenSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên truyện"/>
+    <EditText
+        android:id="@+id/edtTien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tiền"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên loại truyện"
+        android:textSize="20sp"
+        android:textColor="#057309"
+        android:textStyle="bold"/>
+    <Spinner
+        android:id="@+id/spnLoaiSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
